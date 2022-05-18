@@ -3,14 +3,14 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	protected double salary;
+	private double salary;
 
 	public Funcionario() {
 
 	}
 
 	public double getBonus() {
-		return this.salary * 0.1;
+		return this.salary * 0.05;
 	}
 
 	public String getNome() {
